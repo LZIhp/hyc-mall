@@ -6,7 +6,7 @@ export interface RequestOptions {
   tokenKey?: string
 }
 
-export const BASE_URL = import.meta.env?.VITE_API_BASE_URL || 'http://localhost:8000'
+export const BASE_URL = import.meta.env?.VITE_API_BASE_URL ?? 'http://localhost:8000'
 
 /**
  * 创建带鉴权拦截器的 axios 实例

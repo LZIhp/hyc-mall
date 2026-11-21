@@ -1,0 +1,14 @@
+# 华耀城商城后端 gunicorn systemd 服务
+[Unit]
+Description=Hyc Mall Django Backend
+After=network.target
+
+[Service]
+User=__USER__
+WorkingDirectory=__APP_DIR__/backend
+ExecStart=__APP_DIR__/backend/.venv/bin/gunicorn config.wsgi:application --bind 127.0.0.1:8001 --workers 2 --timeout 60
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
