@@ -1,0 +1,24 @@
+/* 华耀 · 暖玉 设计 tokens */
+:root {
+  /* 色彩 */
+  --hyc-ink: #1c1917;        /* 深墨（底/文字） */
+  --hyc-amber: #b98a3c;      /* 暖琥珀（主色） */
+  --hyc-amber-soft: #e9d9b8; /* 浅琥珀 */
+  --hyc-cinnabar: #c0392b;   /* 朱砂红（点缀） */
+  --hyc-cream: #faf6ef;      /* 暖白（内容区） */
+  --hyc-paper: #f3ece0;      /* 暖纸（卡片） */
+  --hyc-stone: #8a7f70;      /* 暖灰（次要文字） */
+
+  /* 字体 */
+  --hyc-font-display: 'Noto Serif SC', 'Source Han Serif SC', 'SimSun', serif;
+  --hyc-font-body: 'Noto Sans SC', 'Source Han Sans SC', 'PingFang SC', sans-serif;
+
+  /* 圆角 / 阴影 */
+  --hyc-radius: 12px;
+  --hyc-radius-sm: 8px;
+  --hyc-shadow: 0 4px 20px rgba(28, 25, 23, 0.08);
+  --hyc-shadow-lg: 0 12px 40px rgba(28, 25, 23, 0.14);
+
+  /* 过渡 */
+  --hyc-ease: cubic-bezier(0.22, 1, 0.36, 1);
+}
